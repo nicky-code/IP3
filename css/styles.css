@@ -1,0 +1,10 @@
+#studio {
+    background-image: url("///home/nicky/Documents/IP3/img/backgrounds/h_img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+body {
+    text-align: center;
+}
