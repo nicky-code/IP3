@@ -87,3 +87,12 @@ h3 {
 label {
     font-size: 23px;
 }
+
+.part5 {
+    text-align: center;
+}
+
+#portfolio {
+    padding: 2%;
+    justify-content: space-between;
+}
