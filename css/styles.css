@@ -5,13 +5,13 @@
     color: white;
     box-sizing: content-box;
     text-align: center;
-    margin: 30px 170px;
+    /* margin: 30px 170px; */
     padding: 60px 30px;
     height: 300px;
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
@@ -36,9 +36,29 @@ h2 {
 
 .part2 {
     text-align: center;
-    height: 300px;
+    padding: 50px;
 }
 
 #about {
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.part3 {
+    background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* box-sizing: content-box; */
+    text-align: center;
+    padding: 7%;
+}
+
+h3 {
+    font-size: 23px;
+    color: white;
+    margin-top: 20px;
+}
+
+#service {
+    font-size: 15px;
 }
