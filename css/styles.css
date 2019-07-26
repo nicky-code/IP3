@@ -1,4 +1,4 @@
-#studio {
+.part1 {
     background-image: url("///home/nicky/Documents/IP3/img/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,6 +26,19 @@ p {
     width: 50px;
     height: 50px;
     margin-top: 70.5px;
-    /* margin-bottom: 50%; */
     position: 0px relative;
+}
+
+h2 {
+    font-size: 23px;
+    color: black;
+}
+
+.part2 {
+    text-align: center;
+    height: 300px;
+}
+
+#about {
+    font-size: 12px;
 }
