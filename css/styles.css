@@ -30,7 +30,7 @@ p {
 }
 
 h2 {
-    font-size: 23px;
+    font-size: 25px;
     color: black;
 }
 
@@ -61,4 +61,29 @@ h3 {
 
 #service {
     font-size: 15px;
+}
+
+.part4 {
+    text-align: center;
+    padding: 4%;
+}
+
+#weDo {
+    padding: 2%;
+}
+
+#title1,
+#title2,
+#title3 {
+    font-size: 23px;
+}
+
+#desiPara,
+#devPara,
+#proPara {
+    font-size: 15px;
+}
+
+label {
+    font-size: 23px;
 }
