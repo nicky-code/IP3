@@ -122,10 +122,11 @@ h4 {
     margin-left: 300px;
 }
 
-#form-group {
-    justify-content: space-between;
+h5 {
+    color: white;
 }
 
-h4 {
-    color: white;
+.lastPart {
+    text-align: center;
+    padding: 3%;
 }
