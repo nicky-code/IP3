@@ -5,7 +5,6 @@
     color: white;
     box-sizing: content-box;
     text-align: center;
-    /* margin: 30px 170px; */
     padding: 60px 30px;
     height: 300px;
 }
@@ -69,7 +68,7 @@ h3 {
 }
 
 #weDo {
-    padding: 1%;
+    padding: 2%;
 }
 
 #title1,
@@ -98,6 +97,35 @@ label {
 }
 
 #portfolio2 {
-    padding: 1%;
+    padding: 2%;
     justify-content: space-between;
+}
+
+h4 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.part6 {
+    background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 60px 30px;
+    height: 350px;
+}
+
+#button {
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+}
+
+#form-group {
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
 }
