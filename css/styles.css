@@ -94,6 +94,7 @@ label {
 #portfolio1 {
     padding: 2%;
     justify-content: space-between;
+    font-size: 30px;
 }
 
 #portfolio2 {
@@ -116,10 +117,29 @@ h4 {
     height: 350px;
 }
 
+#info {
+    padding: 0.1%;
+}
+
+#name {
+    height: 35px;
+    width: 520px;
+}
+
+#email {
+    height: 35px;
+    width: 350px;
+}
+
+#info,
+#textarea {
+    background-color: auto;
+}
+
 #button {
     display: flex;
     position: relative;
-    margin-left: 300px;
+    margin-left: 900px;
 }
 
 h5 {
@@ -129,4 +149,13 @@ h5 {
 .lastPart {
     text-align: center;
     padding: 3%;
+}
+
+h6,
+#year {
+    text-align: center;
+}
+
+#year {
+    font-size: 15px;
 }
