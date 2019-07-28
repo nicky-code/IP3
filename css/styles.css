@@ -122,8 +122,8 @@ h5 {
     height: 370px;
 }
 
-#blanks {
-    padding: 0.1%;
+#info {
+    padding: 1%;
 }
 
 #name {
@@ -135,13 +135,15 @@ h5 {
 
 #email {
     height: 35px;
-    width: 350px;
+    width: 310px;
     background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/c_image.jpg");
+    color: white;
 }
 
 #info,
 #textarea {
     background-color: transparent;
+    color: white;
 }
 
 #button {
@@ -152,6 +154,7 @@ h5 {
 
 h6 {
     color: white;
+    font-size: 30px;
 }
 
 .lastPart {

@@ -36,33 +36,22 @@ $(document).ready(function() {
     });
 })
 $(document).ready(function() {
-    $("#icon3,label").click(function() {
-        $("#icon3").hide();
-        $("label").hide();
-        $("#title3").show();
-        $("#proPara").show();
-    });
-    $("#proPara").click(function() {
-        $("#title3").hide();
-        $("#proPara").hide();
-        $("#icon3").show();
-        $("label").show();
+    $("#product").click(function() {
+        $("img#icon3").toggle();
+        $("label#icon3").toggle();
+        $("h4#title3").toggle();
+        $("p#proPara").toggle();
     });
 })
+
 $(document).ready(function() {
-        $("#submit").hide();
-    })
-    // $(document).ready(function() {
-    //     $("#blanks form").submit(function(event) {
-    //         var blanks = ["name", "email", "msg"];
+    $("#contactUs").submit(function(event) {
+        var myName = $("#name").val();
+        var myEmail = $("#email").val();
+        var comment = $("#textarea").val();
 
-//         blanks.forEach(function(blank) {
-//             var userInput = $("input#" + blank).val();
-//             $("." + blank).text(userInput);
-//         });
+        alert(myName + " we have received your message.Thank you for reaching out to us.");
 
-//         $("#submit").show();
-
-//         event.preventDefault();
-//     });
-// });
+    });
+    event.preventDefault();
+});
