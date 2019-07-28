@@ -24,7 +24,7 @@
 * no issues
 ## HTML,CSS,GIT and GITHUB, Javascript,Bootstrap,Terminal text editor,Visual Studio Code editer,JQuery
 {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
-## ,Contact me on aline.nicole7@gmail.com or on +250788755030.
+## https://github.com/nicky-code/IP3,Contact me on aline.nicole7@gmail.com or on +250788755030.
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
