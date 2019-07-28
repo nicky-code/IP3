@@ -10,7 +10,7 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 43px;
 }
 
 p {
@@ -18,13 +18,13 @@ p {
 }
 
 #img1 {
-    margin-bottom: -130px;
+    margin-bottom: -120px;
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
-    margin-top: 140.5px;
+    width: 65px;
+    height: 65px;
+    margin-top: 130.5px;
     position: 0px relative;
 }
 
@@ -52,13 +52,13 @@ h2 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 40px;
     color: white;
     margin-top: 20px;
 }
 
 #service {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .part4 {
@@ -91,15 +91,14 @@ label {
 }
 
 #portfolio1 {
-    padding: 3%;
+    padding: 2%;
     justify-content: space-between;
     font-size: 30px;
 }
 
 #portfolio2 {
-    position: relative;
-    bottom: -130px;
     justify-content: space-between;
+    padding: 1%;
 }
 
 h4 {
@@ -108,8 +107,7 @@ h4 {
 }
 
 h5 {
-    text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
 }
 
@@ -122,7 +120,7 @@ h5 {
     padding: 60px 30px;
     height: 370px;
     position: relative;
-    bottom: -230px;
+    bottom: -30px;
 }
 
 #info {
@@ -157,19 +155,19 @@ h5 {
 
 h6 {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .lastPart {
     text-align: center;
-    padding: 20%;
+    padding: 7%;
 }
 
 #year>p {
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: -210px;
+    top: -70px;
 }
 
 #pWork4,
@@ -180,7 +178,7 @@ h6 {
 #pWork6,
 #pWork7,
 #pWork8 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .col-md-3 :hover {
