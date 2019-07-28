@@ -10,5 +10,12 @@
 *The working project should be deployed and the link to the live site provided on the Github repository.
 *The business logic and UI logic of the code should be separated.
 *The project code should be consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
+## BDD
+### Behaviour
+*The 'What we do'  icons when clicked should toggle between the respective description of each icon. The description should be centered aligned. The header should be in bold and centered also. This should be achieved by using jQuery.
+*a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture is still be visible in the background.
+*Tell the user through a pop up that you have received their message and also thank them for contacting you .
+
+
 
 
