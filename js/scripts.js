@@ -50,8 +50,74 @@ $(document).ready(function() {
         var myEmail = $("#email").val();
         var comment = $("#textarea").val();
 
-        alert(myName + " we have received your message.Thank you for reaching out to us.");
+        alert(myName + " ,we have received your message.Thank you for reaching out to us.");
 
     });
     event.preventDefault();
+});
+$(document).ready(function() {
+    $("#work4").mouseover(function() {
+        $("#pWork4").show();
+    });
+    $("#work4").mouseleave(function() {
+        $("#pWork4").hide();
+    });
+
+
+    $("#work3").mouseover(function() {
+        $("#pWork3").show();
+    });
+    $("#work3").mouseleave(function() {
+        $("#pWork3").hide();
+    });
+
+
+    $("#work2").mouseover(function() {
+        $("#pWork2").show();
+    });
+    $("#work2").mouseleave(function() {
+        $("#pWork2").hide();
+    });
+
+
+    $("#work1").mouseover(function() {
+        $("#pWork1").show();
+    });
+    $("#work1").mouseleave(function() {
+        $("#pWork1").hide();
+    });
+
+
+    $("#work5").mouseover(function() {
+        $("#pWork5").show();
+    });
+    $("#work5").mouseleave(function() {
+        $("#pWork5").hide();
+    });
+
+
+    $("#work6").mouseover(function() {
+        $("#pWork6").show();
+    });
+    $("#work6").mouseleave(function() {
+        $("#pWork6").hide();
+    });
+
+
+    $("#work7").mouseover(function() {
+        $("#pWork7").show();
+    });
+    $("#work7").mouseleave(function() {
+        $("#pWork7").hide();
+    });
+
+
+    $("#work8").mouseover(function() {
+        $("#pWork8").show();
+    });
+    $("#work8").mouseleave(function() {
+        $("#pWork8").hide();
+    });
+
+
 });
