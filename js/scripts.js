@@ -1,11 +1,11 @@
-// $(document).ready(function() {
-//     $("#title1").hide();
-//     $("#title2").hide();
-//     $("#title3").hide();
-//     $("#desiPara").hide();
-//     $("#devPara").hide();
-//     $("#proPara").hide();
-// });
+$(document).ready(function() {
+    $("#title1").hide();
+    $("#title2").hide();
+    $("#title3").hide();
+    $("#desiPara").hide();
+    $("#devPara").hide();
+    $("#proPara").hide();
+});
 
 $(document).ready(function() {
     $("#icon1,label").click(function() {
@@ -49,3 +49,20 @@ $(document).ready(function() {
         $("label").show();
     });
 })
+$(document).ready(function() {
+        $("#submit").hide();
+    })
+    // $(document).ready(function() {
+    //     $("#blanks form").submit(function(event) {
+    //         var blanks = ["name", "email", "msg"];
+
+//         blanks.forEach(function(blank) {
+//             var userInput = $("input#" + blank).val();
+//             $("." + blank).text(userInput);
+//         });
+
+//         $("#submit").show();
+
+//         event.preventDefault();
+//     });
+// });

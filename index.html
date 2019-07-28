@@ -96,17 +96,28 @@
         </div>
         <div class="part6">
             <h6>CONTACT US</h6>
-            <div id="info">
-                <input id="name" type="text" placeholder="Name..." required>
-                <input id="email" type="text" placeholder="Email..." required>
+            <div id="blanks">
+                <form>
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input id="name" class="form-control" type="text" placeholder="Name..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input id="email" class="form-control" type="text" placeholder="Email..." required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="msg"></label>
+                        <textarea id="textarea" class="form-control" type="text" placeholder="Your message here..." cols="80" rows="8"></textarea></div>
+                    <br></br>
+                    <button id="button" type="submit" class="btn">SUBMIT</button>
+                </form>
             </div>
-            <br>
-            <textarea id="textarea" type="text" placeholder="Your message here..." cols="90" rows="8"></textarea>
-            <br></br>
+            <div id="submit">
+                <p>**<span class="name"></span>we have received your message.Thank you for reaching out to us.**</p>
+            </div>
 
-            <div id="button">
-                <button onclick="submit">SUBMIT</button>
-            </div>
         </div>
 
         <div class="lastPart">
