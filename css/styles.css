@@ -29,7 +29,7 @@ p {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     color: black;
 }
 
@@ -47,7 +47,6 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    /* box-sizing: content-box; */
     text-align: center;
     padding: 7%;
 }
@@ -97,6 +96,11 @@ label {
     font-size: 30px;
 }
 
+#portfolio>.col :hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
 #portfolio2 {
     padding: 2%;
     justify-content: space-between;
@@ -107,6 +111,12 @@ h4 {
     font-size: 27px;
 }
 
+h5 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
 .part6 {
     background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/c_image.jpg");
     background-size: cover;
@@ -114,7 +124,7 @@ h4 {
     box-sizing: content-box;
     text-align: center;
     padding: 60px 30px;
-    height: 350px;
+    height: 370px;
 }
 
 #info {
@@ -124,16 +134,18 @@ h4 {
 #name {
     height: 35px;
     width: 520px;
+    background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/c_image.jpg");
 }
 
 #email {
     height: 35px;
     width: 350px;
+    background-image: url("///home/nicky/Documents/IP3-clone/IP3/assets/backgrounds/c_image.jpg");
 }
 
 #info,
 #textarea {
-    background-color: auto;
+    background-color: transparent;
 }
 
 #button {
@@ -142,7 +154,7 @@ h4 {
     margin-left: 900px;
 }
 
-h5 {
+h6 {
     color: white;
 }
 
@@ -151,11 +163,7 @@ h5 {
     padding: 3%;
 }
 
-h6,
-#year {
+#year>p {
     text-align: center;
-}
-
-#year {
     font-size: 15px;
 }
