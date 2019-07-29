@@ -42,8 +42,11 @@ $(document).ready(function() {
             alert('Please fill in the required data');
         } else {
             alert(myName + ' ,we have received your message.Thank you for reaching out to us.');
-            event.preventDefault();
         }
+        event.preventDefault();
+        $('#name').val('');
+        $('#email').val('');
+        $('#textarea').val('');
     });
 });
 $(document).ready(function() {
