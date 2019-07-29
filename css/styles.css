@@ -1,3 +1,15 @@
+@media only screen and (min-width :320px) and (max-width :414px) {
+    .part1 {
+        width: 40%;
+    }
+    .part3 {
+        width: 40%;
+    }
+    .part6 {
+        width: 40%;
+    }
+}
+
 .part1 {
     background-image: url("///home/nicky/Documents/Delani-Project/img/backgrounds/h_img.jpg");
     background-size: cover;
