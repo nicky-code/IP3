@@ -38,8 +38,8 @@ $(document).ready(function() {
         var myEmail = $('#email').val();
         var comment = $('#textarea').val();
 
-        if (myName === "" || myEmail === "" || comment === "") {
-            alert("Please fill in the required data")
+        if (myName === '' || myEmail === '' || comment === '') {
+            alert('Please fill in the required data');
         } else {
             alert(myName + ' ,we have received your message.Thank you for reaching out to us.');
             event.preventDefault();
