@@ -38,9 +38,13 @@ $(document).ready(function() {
         var myEmail = $('#email').val();
         var comment = $('#textarea').val();
 
-        alert(myName + ' ,we have received your message.Thank you for reaching out to us.');
+        if (myName === "" || myEmail === "" || comment === "") {
+            alert("Please fill in the required data")
+        } else {
+            alert(myName + ' ,we have received your message.Thank you for reaching out to us.');
+            event.preventDefault();
+        }
     });
-    event.preventDefault();
 });
 $(document).ready(function() {
     $('#work4').mouseover(function() {
